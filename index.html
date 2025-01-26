@@ -1,35 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8">
-      <title>Shakela Portfolio</title>
-      <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Shakela Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
-      <div class="container">
-          <div class="profile">
-            <div class="banner">
-              <img src="Me.jpg" alt="Profile Picture">
-              <h1>Shakela Hossain</h1>
-              <p>Front-end Developer | Designer </p>
+    <div class="container">
+      <div class="profile">
+        <div class="banner">
+          <img src="Me.jpg" alt="Profile Picture">
+          <h1>Shakela Hossain</h1>
+          <p>Front-end Developer | Designer </p>
+        </div>
+        <div class="about-me-container">
+          <h3>More About Me</h3>
+          <p>Passionate about design and puzzles, I enjoy the simplicity and the underlying complexity of making an envisonment into reality.</p>
+        </div>
+        <div class="skills-container">
+          <h3>Skills</h3>
+          <div class="skill">
+            <div class="logos">
+              <img src="./icons/icons8-react-90.png" alt="React">
             </div>
-            <div class="about-me-container">
-              <h3>More About Me</h3>
-              <p>Front-end Developer | Designer </p>
-            </div>
-            <div class="skills-container">
-              <h3>Skills</h3>
-              <p>Front-end Developer | Designer </p>
-            </div>
-            <div class="social-icons">
-                <a href="#" title="LinkedIn">L</a>
-                <a href="#" title="GitHub">G</a>
-                <a href="#" title="Twitter">T</a>
+            <div class="vertical-line"></div>
+            <div class="descriptions">
+              <p>Used <strong>React</strong> for both professional and academic projects. Built full-stack app with the use of custom components and various react hooks.</p>
             </div>
           </div>
-          <footer>
-              &copy; 2025 Shakela Hossain. All rights reserved.
-          </footer>
+          <div class="skill">
+            <div class="logos">
+              <img src="./icons/icons8-c-sharp-logo-90.png" alt="C#">
+            </div>
+            <div class="vertical-line"></div>
+            <div class="descriptions">
+              <p>Used <strong>C#</strong> to code the backend logic and algorithms for a monogame application to create complex patterns and simulations.</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="logos">
+              <img src="./icons/icons8-java-90.png" alt="Java">
+            </div>
+            <div class="vertical-line"></div>
+            <div class="descriptions">
+              <p>Used <strong>Java</strong> for various projects for the back-end integration as well as professional project where older built-in tools were still using Java.</p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="logos">
+              <img src="./icons/icons8-kotlin-90.png" alt="Kotlin">
+            </div>
+            <div class="vertical-line"></div>
+            <div class="descriptions">
+              <p>Used <strong>Kotlin</strong> android studio to create various apps such as a book reading app and an e-commerce stores.</p>
+            </div>
+          </div>
+          <h3>Other Skills</h3>
+          <div class="skill">
+            <div class="logos">
+              <p>JavaScript  |  MongoDB  |  Node.js  |  Express.js  |  SQL  |  MonoGame  </p>  
+            </div>
+          </div>
+        </div>
+        <div class="projects-container">
+          <h3>Latest Projects</h3>
+          <div class="project">
+            <div class="project-image">
+              <img src="./src/Shortcut.png" alt="Shortcut">
+            </div>
+            <div class="vertical-line"></div>
+            <div class="descriptions">
+              <p><strong>Shortcut</strong> (World Airbnb Data): An app built with React that helps users find Airbnb listings in popular tourist destinations across various countries. The app includes interactive maps, charts, and filters to help users refine their searches. Despite working with two large datasets, we optimized the app to ensure fast performance and minimal delays, offering users a seamless experience. Check out the deployed project here: http://15.222.235.142/.</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-image">
+              <img src="./src/signet.png" alt="Signet">
+            </div>
+            <div class="vertical-line"></div>
+            <div class="descriptions">
+              <p><strong>Signet</strong>: A Kotlin-based book reading app. The app allows users to download HTML books, which are parsed into readable text and stored in an internal database. One of the most exciting features I led was the ability to search for specific words within the book, with results displayed as snippets of the surrounding sentences. I also led the implementation of a smart bookmarking system, allowing users to pick up right where they left off when reopening the app.</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/shakela-hossain" title="LinkedIn"><img src="./icons/icons8-linkedin-30.png" alt="LinkedIn"></a>
+          <a href="https://github.com/ShakelaH" title="GitHub"><img src="./icons/icons8-github-30.png" alt="GitHub"></a>
+          <a href="https://gitlab.com/Shakela.H" title="GitLab"><img src="./icons/icons8-gitlab-30.png" alt="GitLab"></a>
+        </div>
       </div>
+    </div>
+    <footer>
+        &copy; 2025 Shakela Hossain. All rights reserved.
+    </footer>
   </body>
 </html>
